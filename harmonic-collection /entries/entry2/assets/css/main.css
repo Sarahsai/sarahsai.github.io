@@ -1,0 +1,77 @@
+.image1 {
+  position: relative;
+  width: 400 px;
+  }
+
+.image1__img {
+display: block;
+width: 25%;
+
+}
+
+.image1__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba (0,0,0,0.6);
+  color: #FF0000;
+  font font-family: 'quicksand' , sans-serif;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  transition: opacity 0.25s;
+}
+.image1__overlay--blur {
+  backdrop-filter: blur (5px)
+}
+.image1__overlay:hover{
+opacity: 1;
+}
+
+.image1__title {
+  font-size: 2em;
+   font-weight: bold;
+}
+
+h2{
+  font-size: 50px;
+}
+
+.image2 {
+  position: relative;
+  width: 400 px;
+  }
+
+.image2__img {
+display: block;
+width: 25%;
+
+}
+
+.image2__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba (0,0,0,0.6);
+  color: #FF0000;
+  font font-family: 'quicksand' , sans-serif;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+  transition: opacity 0.25s;
+}
+.image2__overlay--blur {
+  backdrop-filter: blur (5px)
+}
+.image2__overlay:hover{
+opacity: 1;
+}
+
+.image2__title {
+  font-size: 2em;
+   font-weight: bold;
+}
